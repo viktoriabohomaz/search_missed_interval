@@ -2,7 +2,8 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/search_missed_interval`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+This gem realizes a search for a missing interval using a search in the interval tree.
+Running time of finding intervals in the sorted interval tree - O (log n + k)
 
 ## Installation
 
@@ -22,7 +23,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Clone this git repo:
+
+    $ git clone git@github.com:zlayaa/search_missed_interval.git
+
+Run search_missed_interval.rb
+
+    $ cd lib
+
+    $ ruby search_missed_interval.rb
+
+Input intervals
 
 ## Development
 
